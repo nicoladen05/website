@@ -1,5 +1,7 @@
 # The URL the site will be built for
 base_url = "https://nicoladen.dev"
+title = "Home"
+theme = "duckquill"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -14,3 +16,16 @@ highlight_code = false
 
 [extra]
 # Put all your custom variables here
+# Gray accent color
+accent_color = "#446f70"
+accent_color_dark = "#95cdcf"
+
+styles = ["mods.css"]
+
+[extra.nav]
+show_feed = true
+show_theme_switcher = true
+
+links = [
+	{ url = "https://github.com/nicoladen05", name = "GitHub" }
+]
