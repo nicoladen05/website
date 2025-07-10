@@ -1,6 +1,6 @@
 # The URL the site will be built for
 base_url = "https://nicoladen.dev"
-title = "Home"
+title = "Nicoladen"
 theme = "duckquill"
 
 # Whether to automatically compile all Sass files in the sass directory
