@@ -1,7 +1,8 @@
 # The URL the site will be built for
 base_url = "https://nicoladen.dev"
 title = "Nicoladen"
-theme = "duckquill"
+author = "nicoladen"
+theme = "linkita"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -16,18 +17,26 @@ highlight_code = false
 
 [extra]
 # Put all your custom variables here
-# Gray accent color
-accent_color = "#446f70"
-accent_color_dark = "#95cdcf"
 
-emoji_favicon = "✏️"
+[extra.style]
+header_blur = true
 
-styles = ["mods.css"]
+bg_color = "#f4f4f5"
+bg_dark_color = "#18181b"
 
-[extra.nav]
-show_feed = true
-show_theme_switcher = true
+header_color = "#f4f4f5"
+header_dark_color = "#18181b"
 
-links = [
-	{ url = "https://github.com/nicoladen05", name = "GitHub" }
+[extra.profiles.nicoladen]
+name = "Nicoladen"
+bio = ""
+
+avatar_url = ""
+avatar_alt = ""
+
+social = [
+	{ name = "github", url = "https://github.com/nicoladen05"},
+	{ name = "youtube", url = "https://www.youtube.com/@nico9988"},
+	{ name = "spotify", url = "https://open.spotify.com/user/31ojqlwww76kdyqxdhbm7xbx6fgi?si=7a55dd6ab7284f1e"},
+	{ name = "email", url = "mailto:hello@nicoladen.dev"},
 ]
