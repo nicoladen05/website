@@ -20,6 +20,8 @@ highlight_code = false
 accent_color = "#446f70"
 accent_color_dark = "#95cdcf"
 
+emoji_favicon = "✏️"
+
 styles = ["mods.css"]
 
 [extra.nav]
