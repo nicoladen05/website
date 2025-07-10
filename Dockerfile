@@ -1,7 +1,8 @@
-FROM ghcr.io/getzola/zola:v0.17.1 as zola
+FROM ghcr.io/apline
 
 COPY . /project
 WORKDIR /project
+RUN ["apk", "add", "zola"]
 RUN ["zola", "build"]
 
 FROM ghcr.io/static-web-server/static-web-server:2
